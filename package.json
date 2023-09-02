@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cypress": "^13.0.0",
+    "json-server-auth": "^2.1.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "concurrently": "^8.2.1",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "start-server": "npx json-server-auth http://jsonplaceholder.typicode.com/db"
+  }
+}
